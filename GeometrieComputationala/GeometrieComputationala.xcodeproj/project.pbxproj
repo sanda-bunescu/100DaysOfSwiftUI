@@ -17,7 +17,6 @@
 		A743BDA22ACEA851006F6FBF /* GeometrieComputationalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743BDA12ACEA851006F6FBF /* GeometrieComputationalaTests.swift */; };
 		A743BDAC2ACEA851006F6FBF /* GeometrieComputationalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743BDAB2ACEA851006F6FBF /* GeometrieComputationalaUITests.swift */; };
 		A743BDAE2ACEA851006F6FBF /* GeometrieComputationalaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743BDAD2ACEA851006F6FBF /* GeometrieComputationalaUITestsLaunchTests.swift */; };
-		A74825362B03CE860027B832 /* DCEL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A74825352B03CE860027B832 /* DCEL.txt */; };
 		A77BEBB02AE2B6D600DB9ABD /* localizareaInTriunghi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77BEBAF2AE2B6D600DB9ABD /* localizareaInTriunghi.swift */; };
 		A7B3536F2AEFE7DC00B120F9 /* LocalizareaInPoligonConvex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B3536E2AEFE7DC00B120F9 /* LocalizareaInPoligonConvex.swift */; };
 		A7B353712AEFEF2E00B120F9 /* Punct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B353702AEFEF2E00B120F9 /* Punct.swift */; };
@@ -57,7 +56,6 @@
 		A743BDA72ACEA851006F6FBF /* GeometrieComputationalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometrieComputationalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A743BDAB2ACEA851006F6FBF /* GeometrieComputationalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometrieComputationalaUITests.swift; sourceTree = "<group>"; };
 		A743BDAD2ACEA851006F6FBF /* GeometrieComputationalaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometrieComputationalaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A74825352B03CE860027B832 /* DCEL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DCEL.txt; path = ../../../../NetBeansProjects/PSLG/DCEL.txt; sourceTree = "<group>"; };
 		A77BEBAF2AE2B6D600DB9ABD /* localizareaInTriunghi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localizareaInTriunghi.swift; sourceTree = "<group>"; };
 		A7B3536E2AEFE7DC00B120F9 /* LocalizareaInPoligonConvex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizareaInPoligonConvex.swift; sourceTree = "<group>"; };
 		A7B353702AEFEF2E00B120F9 /* Punct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Punct.swift; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 				A77BEBAF2AE2B6D600DB9ABD /* localizareaInTriunghi.swift */,
 				A7B353702AEFEF2E00B120F9 /* Punct.swift */,
 				A743BD922ACEA850006F6FBF /* ContentView.swift */,
-				A74825352B03CE860027B832 /* DCEL.txt */,
 				A743BD942ACEA851006F6FBF /* Assets.xcassets */,
 				A743BD962ACEA851006F6FBF /* Preview Content */,
 			);
@@ -263,7 +260,6 @@
 			files = (
 				A743BD982ACEA851006F6FBF /* Preview Assets.xcassets in Resources */,
 				A743BD952ACEA851006F6FBF /* Assets.xcassets in Resources */,
-				A74825362B03CE860027B832 /* DCEL.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
