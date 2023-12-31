@@ -12,7 +12,6 @@ struct RatingView: View {
     
     var body: some View {
         HStack{
-            
             ForEach(1..<6 , id: \.self){number in
                 image(for: number)
                     .foregroundStyle(number > rating ? .gray : .yellow)

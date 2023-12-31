@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70D842A2AD14DF400A9547F /* cautareaBinara.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70D84292AD14DF400A9547F /* cautareaBinara.swift */; };
+		A70D842C2AD151DE00A9547F /* cautareaBinaraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70D842B2AD151DE00A9547F /* cautareaBinaraView.swift */; };
+		A715499C2AD1698200E40EBB /* mergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A715499B2AD1698200E40EBB /* mergeSort.swift */; };
+		A743BD912ACEA850006F6FBF /* GeometrieComputationalaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743BD902ACEA850006F6FBF /* GeometrieComputationalaApp.swift */; };
+		A743BD932ACEA850006F6FBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743BD922ACEA850006F6FBF /* ContentView.swift */; };
+		A743BD952ACEA851006F6FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A743BD942ACEA851006F6FBF /* Assets.xcassets */; };
+		A743BD982ACEA851006F6FBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A743BD972ACEA851006F6FBF /* Preview Assets.xcassets */; };
+		A743BDA22ACEA851006F6FBF /* GeometrieComputationalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743BDA12ACEA851006F6FBF /* GeometrieComputationalaTests.swift */; };
+		A743BDAC2ACEA851006F6FBF /* GeometrieComputationalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743BDAB2ACEA851006F6FBF /* GeometrieComputationalaUITests.swift */; };
+		A743BDAE2ACEA851006F6FBF /* GeometrieComputationalaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A743BDAD2ACEA851006F6FBF /* GeometrieComputationalaUITestsLaunchTests.swift */; };
+		A74825362B03CE860027B832 /* DCEL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A74825352B03CE860027B832 /* DCEL.txt */; };
+		A77BEBB02AE2B6D600DB9ABD /* localizareaInTriunghi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77BEBAF2AE2B6D600DB9ABD /* localizareaInTriunghi.swift */; };
+		A7B3536F2AEFE7DC00B120F9 /* LocalizareaInPoligonConvex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B3536E2AEFE7DC00B120F9 /* LocalizareaInPoligonConvex.swift */; };
+		A7B353712AEFEF2E00B120F9 /* Punct.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B353702AEFEF2E00B120F9 /* Punct.swift */; };
+		A7B70A4C2ADFE0E1007F953B /* localizareaInPoligonSimplu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B70A4B2ADFE0E1007F953B /* localizareaInPoligonSimplu.swift */; };
+		A7CCE7AF2ADBE42900514EF3 /* ColiniaritateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CCE7AE2ADBE42900514EF3 /* ColiniaritateView.swift */; };
+		A7EF87682ADBBE6B00C4FF4B /* Coliniaritate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF87672ADBBE6A00C4FF4B /* Coliniaritate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A743BD9E2ACEA851006F6FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A743BD852ACEA850006F6FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A743BD8C2ACEA850006F6FBF;
+			remoteInfo = GeometrieComputationala;
+		};
+		A743BDA82ACEA851006F6FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A743BD852ACEA850006F6FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A743BD8C2ACEA850006F6FBF;
+			remoteInfo = GeometrieComputationala;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A70D84292AD14DF400A9547F /* cautareaBinara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cautareaBinara.swift; sourceTree = "<group>"; };
+		A70D842B2AD151DE00A9547F /* cautareaBinaraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cautareaBinaraView.swift; sourceTree = "<group>"; };
+		A715499B2AD1698200E40EBB /* mergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mergeSort.swift; sourceTree = "<group>"; };
+		A743BD8D2ACEA850006F6FBF /* GeometrieComputationala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometrieComputationala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A743BD902ACEA850006F6FBF /* GeometrieComputationalaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometrieComputationalaApp.swift; sourceTree = "<group>"; };
+		A743BD922ACEA850006F6FBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A743BD942ACEA851006F6FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A743BD972ACEA851006F6FBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A743BD9D2ACEA851006F6FBF /* GeometrieComputationalaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometrieComputationalaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A743BDA12ACEA851006F6FBF /* GeometrieComputationalaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometrieComputationalaTests.swift; sourceTree = "<group>"; };
+		A743BDA72ACEA851006F6FBF /* GeometrieComputationalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometrieComputationalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A743BDAB2ACEA851006F6FBF /* GeometrieComputationalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometrieComputationalaUITests.swift; sourceTree = "<group>"; };
+		A743BDAD2ACEA851006F6FBF /* GeometrieComputationalaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometrieComputationalaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A74825352B03CE860027B832 /* DCEL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DCEL.txt; path = ../../../../NetBeansProjects/PSLG/DCEL.txt; sourceTree = "<group>"; };
+		A77BEBAF2AE2B6D600DB9ABD /* localizareaInTriunghi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localizareaInTriunghi.swift; sourceTree = "<group>"; };
+		A7B3536E2AEFE7DC00B120F9 /* LocalizareaInPoligonConvex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizareaInPoligonConvex.swift; sourceTree = "<group>"; };
+		A7B353702AEFEF2E00B120F9 /* Punct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Punct.swift; sourceTree = "<group>"; };
+		A7B70A4B2ADFE0E1007F953B /* localizareaInPoligonSimplu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localizareaInPoligonSimplu.swift; sourceTree = "<group>"; };
+		A7CCE7AE2ADBE42900514EF3 /* ColiniaritateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColiniaritateView.swift; sourceTree = "<group>"; };
+		A7EF87672ADBBE6A00C4FF4B /* Coliniaritate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coliniaritate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A743BD8A2ACEA850006F6FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A743BD9A2ACEA851006F6FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A743BDA42ACEA851006F6FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A743BD842ACEA850006F6FBF = {
+			isa = PBXGroup;
+			children = (
+				A743BD8F2ACEA850006F6FBF /* GeometrieComputationala */,
+				A743BDA02ACEA851006F6FBF /* GeometrieComputationalaTests */,
+				A743BDAA2ACEA851006F6FBF /* GeometrieComputationalaUITests */,
+				A743BD8E2ACEA850006F6FBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A743BD8E2ACEA850006F6FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A743BD8D2ACEA850006F6FBF /* GeometrieComputationala.app */,
+				A743BD9D2ACEA851006F6FBF /* GeometrieComputationalaTests.xctest */,
+				A743BDA72ACEA851006F6FBF /* GeometrieComputationalaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A743BD8F2ACEA850006F6FBF /* GeometrieComputationala */ = {
+			isa = PBXGroup;
+			children = (
+				A743BD902ACEA850006F6FBF /* GeometrieComputationalaApp.swift */,
+				A70D84292AD14DF400A9547F /* cautareaBinara.swift */,
+				A70D842B2AD151DE00A9547F /* cautareaBinaraView.swift */,
+				A715499B2AD1698200E40EBB /* mergeSort.swift */,
+				A7EF87672ADBBE6A00C4FF4B /* Coliniaritate.swift */,
+				A7CCE7AE2ADBE42900514EF3 /* ColiniaritateView.swift */,
+				A7B70A4B2ADFE0E1007F953B /* localizareaInPoligonSimplu.swift */,
+				A7B3536E2AEFE7DC00B120F9 /* LocalizareaInPoligonConvex.swift */,
+				A77BEBAF2AE2B6D600DB9ABD /* localizareaInTriunghi.swift */,
+				A7B353702AEFEF2E00B120F9 /* Punct.swift */,
+				A743BD922ACEA850006F6FBF /* ContentView.swift */,
+				A74825352B03CE860027B832 /* DCEL.txt */,
+				A743BD942ACEA851006F6FBF /* Assets.xcassets */,
+				A743BD962ACEA851006F6FBF /* Preview Content */,
+			);
+			path = GeometrieComputationala;
+			sourceTree = "<group>";
+		};
+		A743BD962ACEA851006F6FBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A743BD972ACEA851006F6FBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A743BDA02ACEA851006F6FBF /* GeometrieComputationalaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A743BDA12ACEA851006F6FBF /* GeometrieComputationalaTests.swift */,
+			);
+			path = GeometrieComputationalaTests;
+			sourceTree = "<group>";
+		};
+		A743BDAA2ACEA851006F6FBF /* GeometrieComputationalaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A743BDAB2ACEA851006F6FBF /* GeometrieComputationalaUITests.swift */,
+				A743BDAD2ACEA851006F6FBF /* GeometrieComputationalaUITestsLaunchTests.swift */,
+			);
+			path = GeometrieComputationalaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A743BD8C2ACEA850006F6FBF /* GeometrieComputationala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A743BDB12ACEA851006F6FBF /* Build configuration list for PBXNativeTarget "GeometrieComputationala" */;
+			buildPhases = (
+				A743BD892ACEA850006F6FBF /* Sources */,
+				A743BD8A2ACEA850006F6FBF /* Frameworks */,
+				A743BD8B2ACEA850006F6FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometrieComputationala;
+			productName = GeometrieComputationala;
+			productReference = A743BD8D2ACEA850006F6FBF /* GeometrieComputationala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A743BD9C2ACEA851006F6FBF /* GeometrieComputationalaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A743BDB42ACEA851006F6FBF /* Build configuration list for PBXNativeTarget "GeometrieComputationalaTests" */;
+			buildPhases = (
+				A743BD992ACEA851006F6FBF /* Sources */,
+				A743BD9A2ACEA851006F6FBF /* Frameworks */,
+				A743BD9B2ACEA851006F6FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A743BD9F2ACEA851006F6FBF /* PBXTargetDependency */,
+			);
+			name = GeometrieComputationalaTests;
+			productName = GeometrieComputationalaTests;
+			productReference = A743BD9D2ACEA851006F6FBF /* GeometrieComputationalaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A743BDA62ACEA851006F6FBF /* GeometrieComputationalaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A743BDB72ACEA851006F6FBF /* Build configuration list for PBXNativeTarget "GeometrieComputationalaUITests" */;
+			buildPhases = (
+				A743BDA32ACEA851006F6FBF /* Sources */,
+				A743BDA42ACEA851006F6FBF /* Frameworks */,
+				A743BDA52ACEA851006F6FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A743BDA92ACEA851006F6FBF /* PBXTargetDependency */,
+			);
+			name = GeometrieComputationalaUITests;
+			productName = GeometrieComputationalaUITests;
+			productReference = A743BDA72ACEA851006F6FBF /* GeometrieComputationalaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A743BD852ACEA850006F6FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A743BD8C2ACEA850006F6FBF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A743BD9C2ACEA851006F6FBF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A743BD8C2ACEA850006F6FBF;
+					};
+					A743BDA62ACEA851006F6FBF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A743BD8C2ACEA850006F6FBF;
+					};
+				};
+			};
+			buildConfigurationList = A743BD882ACEA850006F6FBF /* Build configuration list for PBXProject "GeometrieComputationala" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A743BD842ACEA850006F6FBF;
+			productRefGroup = A743BD8E2ACEA850006F6FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A743BD8C2ACEA850006F6FBF /* GeometrieComputationala */,
+				A743BD9C2ACEA851006F6FBF /* GeometrieComputationalaTests */,
+				A743BDA62ACEA851006F6FBF /* GeometrieComputationalaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A743BD8B2ACEA850006F6FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A743BD982ACEA851006F6FBF /* Preview Assets.xcassets in Resources */,
+				A743BD952ACEA851006F6FBF /* Assets.xcassets in Resources */,
+				A74825362B03CE860027B832 /* DCEL.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A743BD9B2ACEA851006F6FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A743BDA52ACEA851006F6FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A743BD892ACEA850006F6FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A743BD932ACEA850006F6FBF /* ContentView.swift in Sources */,
+				A7EF87682ADBBE6B00C4FF4B /* Coliniaritate.swift in Sources */,
+				A70D842C2AD151DE00A9547F /* cautareaBinaraView.swift in Sources */,
+				A70D842A2AD14DF400A9547F /* cautareaBinara.swift in Sources */,
+				A715499C2AD1698200E40EBB /* mergeSort.swift in Sources */,
+				A7B353712AEFEF2E00B120F9 /* Punct.swift in Sources */,
+				A7CCE7AF2ADBE42900514EF3 /* ColiniaritateView.swift in Sources */,
+				A7B3536F2AEFE7DC00B120F9 /* LocalizareaInPoligonConvex.swift in Sources */,
+				A7B70A4C2ADFE0E1007F953B /* localizareaInPoligonSimplu.swift in Sources */,
+				A77BEBB02AE2B6D600DB9ABD /* localizareaInTriunghi.swift in Sources */,
+				A743BD912ACEA850006F6FBF /* GeometrieComputationalaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A743BD992ACEA851006F6FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A743BDA22ACEA851006F6FBF /* GeometrieComputationalaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A743BDA32ACEA851006F6FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A743BDAC2ACEA851006F6FBF /* GeometrieComputationalaUITests.swift in Sources */,
+				A743BDAE2ACEA851006F6FBF /* GeometrieComputationalaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A743BD9F2ACEA851006F6FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A743BD8C2ACEA850006F6FBF /* GeometrieComputationala */;
+			targetProxy = A743BD9E2ACEA851006F6FBF /* PBXContainerItemProxy */;
+		};
+		A743BDA92ACEA851006F6FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A743BD8C2ACEA850006F6FBF /* GeometrieComputationala */;
+			targetProxy = A743BDA82ACEA851006F6FBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A743BDAF2ACEA851006F6FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A743BDB02ACEA851006F6FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A743BDB22ACEA851006F6FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeometrieComputationala/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometrieComputationala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A743BDB32ACEA851006F6FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeometrieComputationala/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometrieComputationala;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A743BDB52ACEA851006F6FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometrieComputationalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometrieComputationala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeometrieComputationala";
+			};
+			name = Debug;
+		};
+		A743BDB62ACEA851006F6FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometrieComputationalaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometrieComputationala.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeometrieComputationala";
+			};
+			name = Release;
+		};
+		A743BDB82ACEA851006F6FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometrieComputationalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometrieComputationala;
+			};
+			name = Debug;
+		};
+		A743BDB92ACEA851006F6FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometrieComputationalaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometrieComputationala;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A743BD882ACEA850006F6FBF /* Build configuration list for PBXProject "GeometrieComputationala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A743BDAF2ACEA851006F6FBF /* Debug */,
+				A743BDB02ACEA851006F6FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A743BDB12ACEA851006F6FBF /* Build configuration list for PBXNativeTarget "GeometrieComputationala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A743BDB22ACEA851006F6FBF /* Debug */,
+				A743BDB32ACEA851006F6FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A743BDB42ACEA851006F6FBF /* Build configuration list for PBXNativeTarget "GeometrieComputationalaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A743BDB52ACEA851006F6FBF /* Debug */,
+				A743BDB62ACEA851006F6FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A743BDB72ACEA851006F6FBF /* Build configuration list for PBXNativeTarget "GeometrieComputationalaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A743BDB82ACEA851006F6FBF /* Debug */,
+				A743BDB92ACEA851006F6FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A743BD852ACEA850006F6FBF /* Project object */;
+}
